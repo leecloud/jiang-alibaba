@@ -1,0 +1,84 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: jiang-storage
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  zipkin:
+    base-url: http://127.0.0.1:9411
+    locator:
+      discovery:
+        enabled: true
+    discovery-client-enabled: false
+  sleuth:
+    sampler:
+      probability: 1.0
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/jiang-alibaba?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: root
+      initial-size: 10
+      max-active: 100
+      min-idle: 10
+      max-wait: 60000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      test-while-idle: true
+      test-on-return: false
+      test-on-borrow: false
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: false
+        wall:
+          config:
+            multi-statement-allow: true
+
+
+logging:
+  level:
+    root: info
+    com.alibaba.jiangstorage: debug
+
+dfs:
+  path: E:/jiang/uploadPath
+  domain: http://127.0.0.1:8086
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  type-aliases-package: com.alibaba.jiangstorage.model.*
+  global-config:
+    db-config:
+      id-type: AUTO
+      logic-delete-value: -1
+      logic-not-delete-value: 0
+    banner: false
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: 'NULL'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
+

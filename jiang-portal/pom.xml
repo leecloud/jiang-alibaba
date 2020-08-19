@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jiang-alibaba</artifactId>
+        <groupId>com.alibaba</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>jiang-portal</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <!--会员管理模块-->
+        <module>portal-member</module>
+        <!--内容模块服务-->
+        <module>portal-contet</module>
+        <!--营销模块服务-->
+        <module>portal-coupon</module>
+        <!--订单模块-->
+        <module>portal-order</module>
+        <!--商品模块-->
+        <module>portal-product</module>
+    </modules>
+
+
+</project>

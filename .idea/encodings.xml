@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-cms/jiang-cms-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-cms/jiang-cms-mbg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-cms/jiang-cms-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-oms/jiang-oms-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-oms/jiang-oms-mbg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-oms/jiang-oms-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-pms/jiang-pms-mbg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-pms/jiang-pms-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-sms/jiang-sms-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-sms/jiang-sms-mbg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-sms/jiang-sms-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-ums/jiang-ums-mbg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-admin/jiang-admin-ums/jiang-ums-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-boot-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-contet/contet-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-contet/contet-mbg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-contet/contet-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-contet/contet-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-coupon/coupon-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-coupon/coupon-mbg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-coupon/coupon-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-member/member-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-member/member-mbg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-member/member-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-order/order-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-order/order-mbg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-order/order-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-product/product-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-product/product-mbg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-portal/portal-product/product-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-storage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiang-storage/src/main/resources/bootstrap.yml" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

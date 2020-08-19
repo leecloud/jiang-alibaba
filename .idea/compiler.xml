@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jiang-gateway" />
+        <module name="contet-mbg" />
+        <module name="member-server" />
+        <module name="jiang-ums-mbg" />
+        <module name="jiang-cms-mbg" />
+        <module name="jiang-boot-admin" />
+        <module name="order-mbg" />
+        <module name="coupon-server" />
+        <module name="jiang-ums-server" />
+        <module name="jiang-common" />
+        <module name="jiang-portal-member" />
+        <module name="jiang-sms-mbg" />
+        <module name="jiang-cms-common" />
+        <module name="contet-common" />
+        <module name="product-mbg" />
+        <module name="jiang-pms-mbg" />
+        <module name="order-server" />
+        <module name="jiang-cms-server" />
+        <module name="jiang-sms-common" />
+        <module name="contet-server" />
+        <module name="order-common" />
+        <module name="jiang-pms-server" />
+        <module name="jiang-oms-common" />
+        <module name="coupon-common" />
+        <module name="product-common" />
+        <module name="jiang-storage" />
+        <module name="jiang-sms-server" />
+        <module name="member-common" />
+        <module name="jiang-security" />
+        <module name="member-mbg" />
+        <module name="jiang-oms-server" />
+        <module name="product-server" />
+        <module name="jiang-oms-mbg" />
+        <module name="coupon-mbg" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alibaba-gateway" target="1.8" />
+      <module name="jiang-portal-member" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alibaba-gateway" options="-parameters" />
+      <module name="contet-common" options="-parameters" />
+      <module name="contet-mbg" options="-parameters" />
+      <module name="contet-server" options="-parameters" />
+      <module name="coupon-common" options="-parameters" />
+      <module name="coupon-mbg" options="-parameters" />
+      <module name="coupon-server" options="-parameters" />
+      <module name="jiang-admin" options="-parameters" />
+      <module name="jiang-admin-cms" options="-parameters" />
+      <module name="jiang-admin-oms" options="-parameters" />
+      <module name="jiang-admin-pms" options="-parameters" />
+      <module name="jiang-admin-sms" options="-parameters" />
+      <module name="jiang-admin-ums" options="-parameters" />
+      <module name="jiang-boot-admin" options="-parameters" />
+      <module name="jiang-cms-common" options="-parameters" />
+      <module name="jiang-cms-mbg" options="-parameters" />
+      <module name="jiang-cms-server" options="-parameters" />
+      <module name="jiang-common" options="-parameters" />
+      <module name="jiang-gateway" options="-parameters" />
+      <module name="jiang-oms-common" options="-parameters" />
+      <module name="jiang-oms-mbg" options="-parameters" />
+      <module name="jiang-oms-server" options="-parameters" />
+      <module name="jiang-pms-mbg" options="-parameters" />
+      <module name="jiang-pms-server" options="-parameters" />
+      <module name="jiang-portal" options="-parameters" />
+      <module name="jiang-portal-member" options="-parameters" />
+      <module name="jiang-security" options="-parameters" />
+      <module name="jiang-sms-common" options="-parameters" />
+      <module name="jiang-sms-mbg" options="-parameters" />
+      <module name="jiang-sms-server" options="-parameters" />
+      <module name="jiang-storage" options="-parameters" />
+      <module name="jiang-ums-mbg" options="-parameters" />
+      <module name="jiang-ums-server" options="-parameters" />
+      <module name="member-common" options="-parameters" />
+      <module name="member-mbg" options="-parameters" />
+      <module name="member-server" options="-parameters" />
+      <module name="order-common" options="-parameters" />
+      <module name="order-mbg" options="-parameters" />
+      <module name="order-server" options="-parameters" />
+      <module name="portal-contet" options="-parameters" />
+      <module name="portal-coupon" options="-parameters" />
+      <module name="portal-member" options="-parameters" />
+      <module name="portal-order" options="-parameters" />
+      <module name="portal-product" options="" />
+      <module name="product-common" options="-parameters" />
+      <module name="product-mbg" options="-parameters" />
+      <module name="product-server" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-boot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-admin/jiang-admin-ums/jiang-ums-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-admin/jiang-admin-pms/jiang-pms-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-admin/jiang-admin-cms/jiang-cms-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-admin/jiang-admin-oms/jiang-oms-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-admin/jiang-admin-sms/jiang-sms-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-portal/jiang-portal-member/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-portal/portal-member/member-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-portal/portal-contet/contet-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-portal/portal-coupon/coupon-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-portal/portal-order/order-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-portal/portal-product/product-server/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/alibaba-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-portal/jiang-portal-member/pom.xml" />
+        <option value="$PROJECT_DIR$/jiang-portal/portal-contet/contet-server/contet-mbg/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
