@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jiang-gateway" />
+        <module name="jiang-security" />
         <module name="contet-mbg" />
         <module name="member-server" />
         <module name="jiang-ums-mbg" />
@@ -16,17 +16,18 @@
         <module name="coupon-server" />
         <module name="jiang-ums-server" />
         <module name="jiang-common" />
+        <module name="coupon-mbg" />
         <module name="jiang-portal-member" />
         <module name="jiang-sms-mbg" />
         <module name="jiang-cms-common" />
         <module name="contet-common" />
         <module name="product-mbg" />
         <module name="jiang-pms-mbg" />
+        <module name="jiang-gateway" />
         <module name="order-server" />
         <module name="jiang-cms-server" />
         <module name="jiang-sms-common" />
         <module name="contet-server" />
-        <module name="order-common" />
         <module name="jiang-pms-server" />
         <module name="jiang-oms-common" />
         <module name="coupon-common" />
@@ -34,12 +35,11 @@
         <module name="jiang-storage" />
         <module name="jiang-sms-server" />
         <module name="member-common" />
-        <module name="jiang-security" />
         <module name="member-mbg" />
         <module name="jiang-oms-server" />
         <module name="product-server" />
         <module name="jiang-oms-mbg" />
-        <module name="coupon-mbg" />
+        <module name="order-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
