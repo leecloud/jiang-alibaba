@@ -13,7 +13,6 @@
 
     <modules>
         <module>jiang-ums-server</module>
-        <module>jiang-ums-mbg</module>
     </modules>
 
 

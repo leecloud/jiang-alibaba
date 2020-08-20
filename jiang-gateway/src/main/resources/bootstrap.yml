@@ -1,7 +1,8 @@
 server:
-  port: 8080
+  port: 8090
 spring:
   profiles:
+    # dev 默认为开发环境,prod线上环境
     active: dev
   application:
     name: jiang-gateway
@@ -29,3 +30,18 @@ spring:
             allowedMethods: "*"
             allowedHeaders: "*"
             allow-credentials: true
+      routes:
+        # 文件系统
+        - id: jiang-storage
+          uri: lb://jiang-storage
+          predicates:
+            - Path=/resource/**
+          filters:
+            - StripPrefix=1
+        # 后台管理系统
+        - id: jiang-ums-server
+          uri: lb://jiang-ums-server
+          predicates:
+            - Path=/admin/**
+#          filters:
+#            - StripPrefix=1
